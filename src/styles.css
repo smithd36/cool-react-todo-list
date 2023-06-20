@@ -1,0 +1,134 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Ensure the background covers the entire viewport */
+    background: linear-gradient(45deg, #f9bc15, #fe024e, #3a0ca3, #2e76a8, #56ab2f);
+    background-size: 400% 400%; /* Increase the size of the gradient */
+    animation: colorChange 15s ease infinite; /* Apply the animation */
+  }
+
+  /* Animated background styles */
+  @keyframes colorChange {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Header styles */
+  .Header {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Form styles */
+  .new-item-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex: 1;
+  }
+  
+  button.btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button.btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* List styles */
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button.btn-danger {
+    background-color: #f44336;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button.btn-danger:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Checkbox styles */
+  input[type="checkbox"] {
+    appearance: none;
+    border: 2px solid #4caf50;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: #4caf50;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    border-radius: 2px;
+    transform: rotate(45deg);
+  }
+  
+  /* Remove button styles */
+  button.btn-danger {
+    display: none;
+  }
+  
+  .list li:hover button.btn-danger {
+    display: block;
+  }
