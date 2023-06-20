@@ -6,7 +6,7 @@ Add New Tasks:
 - Easily add new tasks to your to-do list. Simply enter the task description in the input field provided and click the "Add to the List" button. The application will instantly update your list with the new task, ensuring that nothing falls through the cracks.
 
 # Mark Tasks as Completed
-# Stay on top of your tasks by marking them as completed. Each task item includes a checkbox that allows you to mark it as done. Once checked, the task will be visually distinguished as completed, providing a clear overview of your progress.
+Stay on top of your tasks by marking them as completed. Each task item includes a checkbox that allows you to mark it as done. Once checked, the task will be visually distinguished as completed, providing a clear overview of your progress.
 
 # Remove Tasks
 If you no longer need a task on your list, you can conveniently remove it. Each task item includes a "Remove" button that allows you to delete the task with a single click. This feature helps you declutter your list and focus on the tasks that matter.
