@@ -16,9 +16,6 @@ The To-Do List Web Application features a clean and user-friendly interface. It 
 ![Screenshot 2023-06-22 104112](https://github.com/smithd36/cool-react-todo-list/assets/90289165/387cd330-a8b4-419f-bf68-59ea06c40990)
 ![Screenshot 2023-06-22 104234](https://github.com/smithd36/cool-react-todo-list/assets/90289165/9dbce469-a4ed-4448-8453-7ec8352200d9)
 
-# Ambient Background
-To create a pleasant and engaging atmosphere, the application includes an ambient background. The background features smooth and colorful animations, adding a touch of visual interest to your task management experience. It enhances the overall aesthetic appeal and creates an immersive environment.
-
 # Technologies Used
 The To-Do List Web Application is built using the following technologies:
 
