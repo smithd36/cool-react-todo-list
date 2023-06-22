@@ -13,6 +13,8 @@ If you no longer need a task on your list, you can conveniently remove it. Each 
 
 # User-Friendly Interface
 The To-Do List Web Application features a clean and user-friendly interface. It prioritizes simplicity and ease of use, allowing you to manage your tasks without unnecessary distractions. The intuitive layout and clear labeling ensure a smooth and hassle-free experience.
+![Screenshot 2023-06-22 104112](https://github.com/smithd36/cool-react-todo-list/assets/90289165/387cd330-a8b4-419f-bf68-59ea06c40990)
+![Screenshot 2023-06-22 104234](https://github.com/smithd36/cool-react-todo-list/assets/90289165/9dbce469-a4ed-4448-8453-7ec8352200d9)
 
 # Ambient Background
 To create a pleasant and engaging atmosphere, the application includes an ambient background. The background features smooth and colorful animations, adding a touch of visual interest to your task management experience. It enhances the overall aesthetic appeal and creates an immersive environment.
@@ -22,6 +24,3 @@ The To-Do List Web Application is built using the following technologies:
 
 React.js: A JavaScript library for building user interfaces.
 CSS: Cascading Style Sheets for styling and layout.
-
-![Screenshot 2023-06-20 145827](https://github.com/smithd36/cool-react-todo-list/assets/90289165/027749d5-d2b1-477f-a06f-bd8e3be7b948)
-![Screenshot 2023-06-20 145844](https://github.com/smithd36/cool-react-todo-list/assets/90289165/feafa4cb-a0c6-45aa-b0e4-82e900fe3a8b)
